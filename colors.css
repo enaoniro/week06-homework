@@ -1,0 +1,51 @@
+/* colors*/
+main {
+    background-color: royalblue;
+  }
+  #top-container-left {
+    background-color: white;
+  }
+  #top-container-right {
+    background-color: white;
+  }
+  #container-above {
+    background-color: royalblue;
+  }
+  #container-below {
+    background-color: royalblue;
+  }
+  #container-footer {
+    background-color: royalblue;
+  }
+  #container-circle {
+    background-color: royalblue;
+  }
+  #triangle-right {
+    border-left: 7px solid white;
+  }
+  .yedili {
+    background-color: white;
+  }
+  #phone-container {
+    background-color: royalblue;
+  }
+  #phone,
+  #two-triangles,
+  #three-dots,
+  #square-container,
+  .on-container,
+  #on-circle,
+  #off-container,
+  #footer-bar {
+    background-color: white;
+  }
+  #phone-camera,
+  #phone-screen,
+  #circle,
+  .dot,
+  #off-circle,
+  #footer,
+  #inner-bar,
+  #icon-bar {
+    background-color: royalblue;
+  }
