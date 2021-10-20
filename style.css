@@ -5,6 +5,55 @@ body {
   box-sizing: content-box;
 }
 /* colors*/
+main {
+  background-color: royalblue;
+
+}
+#top-container-left {
+  background-color: white;
+
+}
+#top-container-right {
+  background-color: white;
+
+}
+#container-above {
+  background-color: royalblue;
+
+}
+#container-below {
+  background-color: royalblue;
+
+}
+#container-footer {
+  background-color: royalblue;
+
+}
+#container-circle {
+  background-color: royalblue;
+}
+#triangle-right {
+  border-left: 7px solid white;
+
+}
+.yedili {
+  background-color: white;
+
+}
+#phone-container {
+  
+  background-color: royalblue;
+
+}
+#phone,#two-triangles,#three-dots,#square-container,.on-container,#on-circle,#off-container,#footer-bar   {
+  background-color: white;
+
+}
+#phone-camera,#phone-screen ,#circle,.dot, #off-circle,#footer,#inner-bar,#icon-bar  {
+  background-color: royalblue;
+
+}
+
 /*typpology*/
 
 /* layout*/
@@ -13,8 +62,9 @@ main {
   height: 38vh;
   display: flex;
   flex-wrap: wrap;
-  background-color: royalblue;
+ 
 }
+
 main * {
   margin: 4% 0 0 3%;
 }
@@ -31,7 +81,7 @@ main * {
   left: -2%;
   width: 40%;
   height: 100%;
-  background-color: white;
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,7 +90,7 @@ main * {
 #top-container-right {
   width: 60%;
   height: 100%;
-  background-color: white;
+ 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,17 +98,17 @@ main * {
 #container-above {
   width: 85%;
   height: 15%;
-  background-color: royalblue;
+ 
 }
 #container-below {
   width: 85%;
   height: 10%;
-  background-color: royalblue;
+
 }
 #container-footer {
   width: 35%;
   height: 20%;
-  background-color: royalblue;
+  
 }
 
 #container-circle {
@@ -67,7 +117,7 @@ main * {
   align-items: center;
   width: 20px;
   height: 20px;
-  background-color: royalblue;
+  
   border-radius: 20px;
 }
 
@@ -76,7 +126,7 @@ main * {
   width: 0;
   height: 0;
   border-top: 6px solid transparent;
-  border-left: 7px solid white;
+ 
   border-bottom: 6px solid transparent;
   left: 4%;
 }
@@ -94,7 +144,7 @@ main * {
   width: 95%;
   height: 15%;
   box-sizing: border-box;
-  background-color: white;
+ 
   margin-bottom: 20%;
 }
 #phone-container {
@@ -103,7 +153,6 @@ main * {
   display: flex;
   justify-content: space-evenly;
 
-  background-color: royalblue;
   position: relative;
   top: -20%;
 }
@@ -118,18 +167,17 @@ main * {
   justify-content: center;
   align-items: center;
   border: royalblue 1px solid;
-  background-color: white;
+ 
   border-radius: 5%;
 }
 #phone-camera {
   width: 40%;
   height: 2%;
-  background-color: royalblue;
+ 
 }
 #phone-screen {
   width: 90%;
   height: 90%;
-  background-color: royalblue;
   position: relative;
   left: -2%;
 }
@@ -150,7 +198,7 @@ main * {
   width: 70%;
   height: 98%;
 
-  background-color: white;
+ 
 }
 #circle {
   position: relative;
@@ -159,7 +207,7 @@ main * {
   width: 20px;
   height: 20px;
   border-radius: 20px;
-  background-color: royalblue;
+  
 }
 #triangles {
   position: relative;
@@ -195,13 +243,12 @@ main * {
   display: flex;
   width: 30px;
   height: 10px;
-  background-color: white;
+  
 }
 .dot {
   width: 5px;
   height: 5px;
   border-radius: 5px;
-  background-color: royalblue;
   border: royalblue 1px solid;
 }
 
@@ -211,7 +258,6 @@ main * {
   width: 30%;
   height: 34%;
 
-  background-color: white;
 }
 #two-triangles-right {
   display: flex;
@@ -235,8 +281,6 @@ main * {
 .on-container {
   width: 4rem;
   height: 2rem;
-
-  background-color: white;
   border-radius: 2rem;
 }
 #on-circle {
@@ -248,15 +292,14 @@ main * {
   height: 2rem;
   border-radius: 2rem;
   border: royalblue 1px solid;
-  background-color: white;
+  
 }
 #off-container {
   width: 4rem;
   height: 2rem;
 
-  background-color: royalblue;
   border-radius: 2rem;
-  background-color: white;
+  
 }
 #off-circle {
   box-sizing: border-box;
@@ -267,7 +310,7 @@ main * {
   height: 2rem;
   border-radius: 2rem;
   border: white 1px solid;
-  background-color: royalblue;
+ 
 }
 
 #footer {
@@ -277,7 +320,7 @@ main * {
   height: 4%;
   display: flex;
   justify-content: space-evenly;
-  background-color: royalblue;
+ 
   top: -21%;
 }
 #footer-bar {
@@ -288,16 +331,14 @@ main * {
   width: 70%;
   height: 100%;
 }
-#footer-bar {
-  background-color: white;
-}
+
 #inner-bar {
   position: relative;
   top: -17px;
   left: -2%;
   width: 80%;
   height: 90%;
-  background-color: royalblue;
+ 
 }
 #icon-bar {
   display: flex;
@@ -310,7 +351,7 @@ main * {
 
   width: 36%;
   height: 99%;
-  background-color: royalblue;
+  
 }
 .fa {
   position: relative;
